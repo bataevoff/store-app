@@ -1,0 +1,23 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+
+.bar-menu {
+}
+
+ul {
+  display: flex;
+  gap: 24px;
+}
+
+li {
+  list-style-type: none;
+}
+
+li:hover {
+  border-bottom: 2px solid black;
+  margin-bottom: -2px;
+}
