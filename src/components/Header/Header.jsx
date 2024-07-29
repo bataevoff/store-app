@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./Header.module.scss";
 import { Logo } from "../../assets/svg/Logo";
 
-export const Header = () => {
+const Header = () => {
   return (
     <div className={styles.header}>
       <div className={styles.container}>
@@ -26,3 +26,5 @@ export const Header = () => {
     </div>
   );
 };
+
+export default Header;
