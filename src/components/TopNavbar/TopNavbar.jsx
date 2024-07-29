@@ -7,15 +7,15 @@ const TopNavbar = () => {
     <div className={styles.TopNavbar}>
       <div className={styles.wrapper}>
         <div className="nike-logo">
-          <NikeLogo width={"60px"} height={"60px"} />
+          <NikeLogo className={"svg"} width={"60px"} height={"60px"} />
         </div>
         <div className={styles["bar-menu"]}>
-          <ul className="menu-items">
-            <li>Neues und Highlights</li>
-            <li>Herren</li>
-            <li>Damen</li>
-            <li>Kinder</li>
-            <li>Sale</li>
+          <ul className={styles.ul}>
+            <li className={styles.li}>Neues und Highlights</li>
+            <li className={styles.li}>Herren</li>
+            <li className={styles.li}>Damen</li>
+            <li className={styles.li}>Kinder</li>
+            <li className={styles.li}>Sale</li>
           </ul>
         </div>
         <div className="actions"></div>

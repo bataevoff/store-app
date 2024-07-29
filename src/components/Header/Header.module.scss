@@ -5,25 +5,25 @@
 }
 
 .container {
-  width: 92%;
+  width: 95%;
   margin: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-ul {
+.ul {
   display: flex;
   gap: 12px;
 }
 
-li {
+.li {
   list-style-type: none;
 }
 
-li:hover {
+.li:hover {
   cursor: pointer;
-  opacity: 0.7;
+  opacity: 0.5;
 }
 
 .line {

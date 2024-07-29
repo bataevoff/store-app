@@ -2,13 +2,7 @@ import React from "react";
 
 const NikeLogo = (props) => {
   return (
-    <svg
-      width="800px"
-      height="800px"
-      viewBox="0 0 192.756 192.756"
-      xmlns="http://www.w3.org/2000/svg"
-      {...props}
-    >
+    <svg width="800px" height="800px" viewBox="0 0 192.756 192.756" {...props}>
       <g fillRule="evenodd" clipRule="evenodd">
         <path fill="#ffffff" d="M0 0h192.756v192.756H0V0z" />
 

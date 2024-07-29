@@ -12,14 +12,14 @@ const Header = () => {
           </a>
         </div>
         <div className={styles.actions}>
-          <ul>
-            <li>Find a store</li>
+          <ul className={styles.ul}>
+            <li className={styles.li}>Find a store</li>
             <div className={[styles.line]}>|</div>
-            <li>Help</li>
+            <li className={styles.li}>Help</li>
             <div className={styles.line}>|</div>
-            <li>Join us</li>
+            <li className={styles.li}>Join us</li>
             <div className={styles.line}>|</div>
-            <li>Sign in</li>
+            <li className={styles.li}>Sign in</li>
           </ul>
         </div>
       </div>

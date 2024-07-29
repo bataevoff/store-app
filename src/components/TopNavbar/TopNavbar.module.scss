@@ -5,19 +5,20 @@
   align-items: center;
 }
 
-.bar-menu {
-}
-
-ul {
+.ul {
   display: flex;
   gap: 24px;
 }
 
-li {
+.li {
   list-style-type: none;
 }
 
-li:hover {
+.li:hover {
   border-bottom: 2px solid black;
   margin-bottom: -2px;
+}
+
+.svg {
+  vertical-align: top;
 }
